@@ -35,7 +35,7 @@ o PC4: 192.168.4.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
 o PC5: 192.168.4.3, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
  
 # PROGRAM
-
+```
 Router0 Configuration Steps
 Click Router 0 and in CLI TYPE THIS Router> enable
 Router# configure terminal Router(config)# interface FastEthernet0/0
@@ -72,7 +72,7 @@ Router# show ip route
 You should see routes for the networks connected to Router0 (192.168.1.0 and 192.168.2.0) via RIP:
 R 192.168.1.0 [120/1] via 192.168.2.1, 00:00:00, FastEthernet0/0
 R 192.168.2.0 [120/1] via 192.168.2.1, 00:00:00, FastEthernet0/0
-
+```
 2.	Ping from PC to PC
 You can also check connectivity between the PCs on different networks to ensure that RIP is correctly routing packets across the routers.
 •	Example: Ping from PC0 (192.168.1.2) to PC3 (192.168.3.2):
