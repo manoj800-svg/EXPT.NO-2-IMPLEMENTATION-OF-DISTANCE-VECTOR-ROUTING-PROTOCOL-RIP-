@@ -8,9 +8,13 @@ To connect computers in multiple networks using Distance Vector Routing Protocol
 
 # IP ASSIGNMENT:
 
+<img width="1280" height="1006" alt="image" src="https://github.com/user-attachments/assets/67032720-50ff-46db-bfe4-ddee678bd982" />
 
 
 # NETWORK DIAGRAM:
+
+<img width="868" height="1160" alt="image" src="https://github.com/user-attachments/assets/fd09abad-2ab4-4a9a-905b-f56c165b0eb6" />
+
 # PROCEDURE:
 
 STEP 1: Open a Packet Tracer Software.
@@ -31,7 +35,7 @@ o PC4: 192.168.4.2, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
 o PC5: 192.168.4.3, Subnet Mask: 255.255.255.0, Gateway: 192.168.4.1
  
 # PROGRAM
-
+```
 Router0 Configuration Steps
 Click Router 0 and in CLI TYPE THIS Router> enable
 Router# configure terminal Router(config)# interface FastEthernet0/0
@@ -68,7 +72,7 @@ Router# show ip route
 You should see routes for the networks connected to Router0 (192.168.1.0 and 192.168.2.0) via RIP:
 R 192.168.1.0 [120/1] via 192.168.2.1, 00:00:00, FastEthernet0/0
 R 192.168.2.0 [120/1] via 192.168.2.1, 00:00:00, FastEthernet0/0
-
+```
 2.	Ping from PC to PC
 You can also check connectivity between the PCs on different networks to ensure that RIP is correctly routing packets across the routers.
 •	Example: Ping from PC0 (192.168.1.2) to PC3 (192.168.3.2):
@@ -79,7 +83,9 @@ You can also check connectivity between the PCs on different networks to ensure 
 •	Similarly, you can ping between other PCs (e.g., from PC2 to PC5) to verify network connective
  
 # OUTPUT
+<img width="868" height="1160" alt="image" src="https://github.com/user-attachments/assets/4a8e7a11-f7bd-4178-ad54-b1d246074a88" />
 
+<img width="868" height="1160" alt="image" src="https://github.com/user-attachments/assets/24f4246c-a81d-4eff-ab48-1da4f3a057e1" />
 
 
 # RESULT:
